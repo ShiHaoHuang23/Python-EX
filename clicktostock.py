@@ -6,7 +6,7 @@ import time
 stocks = [{"name":"台積電","id":"2330"},{"name":"華碩","id":"2357"}]
 url = "https://www.twse.com.tw/zh/page/trading/exchange/STOCK_DAY.html"
 
-web = webdriver.Chrome("chromedrive.exe")
+web = webdriver.Chrome()
 web.implicitly_wait(60)
 web.get(url)
 web.maximize_window()
